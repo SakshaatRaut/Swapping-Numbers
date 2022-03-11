@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+	int marks;
+	printf("Enter your marks:");
+	scanf("%d",&marks);
+	if(marks>=85 && marks<=100)
+	{
+		printf("\nCongrats you have got Grade A.");
+	}
+	else if(marks>=70 && marks<=84)
+	{
+		printf("\nCongrats you have got Grade B.");
+	}
+	else if(marks>=55 && marks<=69)
+	{
+		printf("\nCongrats you have got Grade C.");
+	}
+	else if(marks>=40 && marks<=54)
+	{
+		printf("\nCongrats you have got Grade D.");
+	}
+	else if(marks<40)
+	{
+		printf("\nYou have failed.");
+	}
+	else
+	{
+		printf("\nInvalid Grade Entered.");
+	}
+	return 0;
+}
