@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter 1 for Chicken Tandoori\n");
+	printf("Enter 2 for Paneer Tikka\n");
+	printf("Enter 3 for Double Cheese Macaroni\n");
+	printf("Enter 4 for Lasagne\n");
+	printf("Enter 5 for Pizza\n");
+	printf("\nEnter your choice\n\n");
+	scanf("%d",&n);
+	switch(n)
+	{
+		case 1:
+			printf("\nFood item-Chicken Tandoori\nPrice-Rs.280\n");
+			break;
+			case 2:
+				printf("\nFood item-Paneer Tikka\nPrice-Rs.250\n");
+				break;
+				case 3:
+					printf("\nFood item-Double Cheese Macaroni\nPrice-Rs.310\n");
+					break;
+					case 4:
+						printf("\nFood item-Lasagne\nPrice-Rs.230\n");
+						break;
+						case 5:
+							printf("\nFood item-Pizza\nPrice-Rs.300\n");
+							break;
+							default:printf("Invalid input");
+	}
+}
